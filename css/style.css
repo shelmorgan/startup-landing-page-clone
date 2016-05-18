@@ -27,6 +27,7 @@ div {
     height: 70px;
     margin: 0 auto;
     padding: 0px 15px;
+    width: 970px
 }
 
 .top-navigation .links {
@@ -48,4 +49,31 @@ div {
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
+}
+
+.introduction {
+    background-image: url('../img/first-background.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 41.56rem;
+}
+
+.introduction h1, h3 {
+  color: #fffff;
+  text-align: center;
+  font-weight: 300;
+}
+
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    width: 9.688rem;
+    background-color: #f15a29;
+    color: #ffffff;
+    font-size: 1.125rem;
+    margin: 0 auto;
+    text-align: center;
 }
