@@ -77,10 +77,14 @@ body {
 /**
  * The button
  */
-button {
+.button-wrapper {
+    margin-top: 1.563rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.button {
     color: white;
     text-align: center;
-    margin-top: 1.563rem;
     width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
@@ -89,9 +93,8 @@ button {
     padding: 1rem 1.5rem;
     color: white;
     font-size: 1.125rem;
-    margin: 0 auto;
-}
 
+}
 
 /**
  * The Three Case Images
