@@ -14,9 +14,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-div {
+/*div {
   border: 1px solid Chocolate;
-}
+}*/
 
 /* Navigation Section */
 .top-navigation {
@@ -61,6 +61,7 @@ div {
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
+    text-align: center;
 }
 .introduction h1,
 .introduction h3 {
